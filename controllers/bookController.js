@@ -1,5 +1,5 @@
 // ./controllers/bookController.js
-const Book = require('./../models/Book');
+const Book = require('../models/Book');
 
 exports.getAllBooks = async (req, res) => {
     const allBooks = await Book.find({});
